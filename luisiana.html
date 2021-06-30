@@ -13,6 +13,34 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+.nav{
+    background: slateblue;
+    margin-bottom: 10px;
+   
+}
+
+.nav-ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.nav-li{
+    padding: 12px;
+}
+.nav-li i{
+    color: #fff;
+    margin: 0px 3px;
+    text-align: right;
+}
+.nav-li a{
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+    text-decoration: none;
+}
+
     .container{
         width: 90%;
         margin: auto;
@@ -23,7 +51,7 @@
        margin-top: 5px;
    }
    .name-product{
-       background-color: slateblue;
+       background-color: slategray;
        width: 100%;
    }
    .name-product h1{
@@ -95,7 +123,7 @@ margin: 25px 0px;
         font-size: 12px;
     }
     .img-product img{
-        height: 300px;
+        height: 250px;
     }
     .name-product h1 {
         font-size: 23px;
@@ -104,6 +132,30 @@ margin: 25px 0px;
    
 </style>
 <body>
+
+    <header>
+
+        <nav class="nav">
+        <ul class="nav-ul">
+        
+        <li class="nav-li">
+        <i class="fas fa-home"></i>
+        <a href="home.html">Inicio</a>
+        </li>
+        
+        <li class="nav-li">
+            <i class="fas fa-user-friends"></i>
+            <a href="nosotros.html">Nosotros</a>
+            </li>
+        
+            <li class="nav-li">
+                <i class="fas fa-upload"></i>
+                <a href="publica-productos.html">Publica tu producto</a>
+                </li>
+        </ul>
+        </nav>
+        
+        </header>
     
  <div class="name-product">
 <h1>Jabon para las espinillas</h1>
