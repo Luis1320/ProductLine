@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luisiana-product</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<style>
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.nav{
+    background: slateblue;
+    margin-bottom: 10px;
+   
+}
+
+.nav-ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.nav-li{
+    padding: 12px;
+}
+.nav-li i{
+    color: #fff;
+    margin: 0px 3px;
+    text-align: right;
+}
+.nav-li a{
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+    .container{
+        width: 90%;
+        margin: auto;
+    }
+   .img-product img{
+       width: 100%;
+       height: 600px;
+       margin-top: 5px;
+   }
+   .name-product{
+       background-color: slategray;
+       width: 100%;
+   }
+   .name-product h1{
+       color: #fff;
+       font-family: sans-serif;
+       font-weight: bold;
+       padding: 12px;
+       text-align: center;
+   }
+   .product-specifications{
+       background-color: slategray;
+       color: #fff;
+   }
+   .product-specifications h3 {
+       font-family: sans-serif;
+       font-weight: bold;
+       padding: 12px;
+
+   }
+   .contact-personal{
+       width: 100%;
+       background: skyblue;
+   }
+   .contact-form{
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       gap: 10px;
+       width: 100%;
+       list-style: none;
+       padding: 12px;
+   }
+   .contact-form li i{
+       color: #000;
+       font-weight: bold;
+       font-size: 19px;
+       margin: 5px;
+       
+   }
+   .contact-form li a{
+       
+       color: #000;
+       font-size: 17px;
+       font-weight: bold;
+       font-family: sans-serif;
+       
+   }
+   .price{
+font-family: sans-serif;
+font-weight: bold;
+border-bottom: 2px solid #002;
+margin: 25px 0px;
+}
+.intro-contact{
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 15px;
+    margin: 15px 0px;
+}
+@media (max-width: 850px) {
+    .img-product img{
+        height: 400px;
+    }
+
+}
+
+@media (max-width: 480px) {
+    .intro-contact{
+        font-size: 12px;
+    }
+    .img-product img{
+        height: 250px;
+    }
+    .name-product h1 {
+        font-size: 23px;
+    }
+}
+   
+</style>
+<body>
+
+    <header>
+
+        <nav class="nav">
+        <ul class="nav-ul">
+        
+        <li class="nav-li">
+        <i class="fas fa-home"></i>
+        <a href="home.html">Inicio</a>
+        </li>
+        
+        <li class="nav-li">
+            <i class="fas fa-user-friends"></i>
+            <a href="nosotros.html">Nosotros</a>
+            </li>
+        
+            <li class="nav-li">
+                <i class="fas fa-upload"></i>
+                <a href="publica-productos.html">Publica tu producto</a>
+                </li>
+        </ul>
+        </nav>
+        
+        </header>
+    
+ <div class="name-product">
+<h1>Jabon para las espinillas</h1>
+ </div>
+
+ 
+<div class="container">
+
+ <div class="container-product">
+
+<div class="img-product">
+<img src="./img/aside img.jpg" alt="">
+</div>
+
+<div class="product-specifications">
+<h3>Este producto busca brindar una sensacion increible al lavar tu cara ya que ayuda a reducuir las espinillas, grasas, manchas y ayuda a rejuvenecer la cara.</h3>
+</div>
+
+<div class="price">
+    <h2>Precio Unidad: $500</h2>
+     </div>
+
+     <div class="intro-contact">
+         <h1>Contactar con el vendedor</h1>
+     </div>
+
+    </div>
+
+</div>
+
+<div class="contact-personal">
+
+    <ul class="contact-form">
+        <li class="contact-via">
+ <i class="fas fa-phone-alt"></i>
+ <a href="tel:8094809097">Telefono Movil</a>
+        </li>
+        <li class="contact-via">
+<i class="fab fa-instagram"></i>
+<a href="#">Instagram</a>
+        </li>
+
+        <li class="contact-via">
+<i class="fab fa-facebook"></i>
+<a href="">Facebook</a>
+        </li>
+    </ul>
+    
+</div>
+
+ 
+
+
+
+</body>
+</html>
